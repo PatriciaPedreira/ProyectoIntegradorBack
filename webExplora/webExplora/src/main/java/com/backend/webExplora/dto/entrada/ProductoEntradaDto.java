@@ -1,13 +1,14 @@
 package com.backend.webExplora.dto.entrada;
 
-import lombok.Getter;
-import lombok.Setter;
+import java.math.BigDecimal;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.math.BigDecimal;
+
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
@@ -31,7 +32,7 @@ public class ProductoEntradaDto {
     private String ubicacion;
 
 
-    public ProductoEntradaDto(String nombre) {
+    public ProductoEntradaDto() {
 
     }
 
